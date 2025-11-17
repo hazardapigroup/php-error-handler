@@ -17,7 +17,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"rothkj1022\\PHPErrorHandler\\": "src"
+			"hazardapigroup\\PHPErrorHandler\\": "src"
 		}
 	}
 }
