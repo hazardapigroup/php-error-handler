@@ -18,7 +18,7 @@ define('DB_CHARSET', 'utf8');
 date_default_timezone_set("America/Chicago");
 
 //INSTANTIATE ERROR HANDLER
-use rothkj1022\PHPErrorHandler;
+use hazardapigroup\PHPErrorHandler;
 $errorHandlerConfig = (require('example.config.php')); //EDIT THIS FILE
 $errorHandler = new PHPErrorHandler\PHPErrorHandler($errorHandlerConfig);
 
