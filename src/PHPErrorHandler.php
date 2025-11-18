@@ -1,5 +1,5 @@
 <?php
-namespace rothkj1022\PHPErrorHandler;
+namespace hazardapigroup\PHPErrorHandler;
 
 class PHPErrorHandler {
 	private $config = [];
@@ -518,3 +518,4 @@ class PHPErrorHandler {
         return $ip;
     }
 }
+
