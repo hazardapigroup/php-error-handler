@@ -3,6 +3,13 @@
 	"description": "PHP Error Handler can send you comprehensive error reports via email as well as output to the screen if you so choose.",
 	"type": "library",
 	"license": "MIT",
+	    "repositories": [
+        {
+            "type": "vcs",
+            "url": "rothkj1022/php-error-handler"
+        }
+    ],
+
 	"authors": [
 		{
 			"name": "Kevin Roth"
@@ -13,7 +20,8 @@
 		"phpmailer/phpmailer": "^7.0",
 	        "guzzlehttp/guzzle": "^7.10",
 		"rothkj1022/php-cache-class": "^2.1.2",
-		"symfony/var-dumper": "^4.2"
+		"symfony/var-dumper": "^4.2",
+		"rothkj1022/php-error-handler": "dev-bugfix"
 	},
 	"autoload": {
 		"psr-4": {
